@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="navigation">
+          <div class="logo">
+            <h1>e!</h1>
+          </div>
+
+          <ul class="buttons">
+            <li class="login">Login</li>
+            <li class="createAccount">Create an account</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <p>Breakfast Places in Mumbai</p>
+      <div class="mainDiv">
+        <div class="filter">
+          <div class="filterContents">
+            <h3>Filters</h3>
+            <h4>Select Location</h4>
+            <select name="location" id="location">
+              <option value="default">Select Location</option>
+            </select>
+
+            <h4 class="cuisine">Cuisine</h4>
+            <div class="cuisineList1">
+              <input type="checkbox" name="cuisine" id="cuisine" />
+              <p>North Indian</p>
+            </div>
+            <div class="cuisineList1">
+              <input type="checkbox" name="cuisine" id="cuisine" />
+              <p>South Indian</p>
+            </div>
+
+            <div class="cuisineList1">
+              <input type="checkbox" name="cuisine" id="cuisine" />
+              <p>Chinese</p>
+            </div>
+
+            <div class="cuisineList1">
+              <input type="checkbox" name="cuisine" id="cuisine" />
+              <p>Fast Food</p>
+            </div>
+
+            <div class="cuisineList1">
+              <input type="checkbox" name="cuisine" id="cuisine" />
+              <p>Street Food</p>
+            </div>
+            <h4 class="cuisine">Cost For Two</h4>
+            <div class="costForTwo">
+              <input type="radio" name="costfortwo" id="cost" />
+              <p>Less than <span>₹</span> 500</p>
+            </div>
+            <div class="costForTwo">
+              <input type="radio" name="costfortwo" id="cost" />
+              <p><span>₹</span> 500 to <span>₹</span> 1000</p>
+            </div>
+            <div class="costForTwo">
+              <input type="radio" name="costfortwo" id="cost" />
+              <p><span>₹</span> 1000 to <span>₹</span> 1500</p>
+            </div>
+            <div class="costForTwo">
+              <input type="radio" name="costfortwo" id="cost" />
+              <p><span>₹</span> 1500 to <span>₹</span> 2000</p>
+            </div>
+            <div class="costForTwo">
+              <input type="radio" name="costfortwo" id="cost" />
+              <p><span>₹</span> 2000+</p>
+            </div>
+
+            <h3 class="sortHeading">Sort</h3>
+            <div class="costForTwo">
+              <input type="radio" name="sorting" id="cost" />
+              <p>Price low to high</p>
+            </div>
+            <div class="costForTwo">
+              <input type="radio" name="sorting" id="cost" />
+              <p>Price high to low</p>
+            </div>
+          </div>
+        </div>
+        <div class="results">
+          <div class="result1">
+            <div class="resultContainer">
+              <div class="picHeading">
+                <div class="image"></div>
+                <div class="textContent">
+                  <h1>The Big Chill Cakery</h1>
+                  <h4>FORT</h4>
+                  <h6>Shop 1, Plot D, Samruddhi Complex, Chincholi ...</h6>
+                </div>
+              </div>
+              <hr>
+              <div class="cuisineType">
+                <h3>Cuisines:</h3>
+                <h4>Bakery</h4>
+              </div>
+              <div class="price">
+                <h3>cost for two:</h3>
+                <h4>₹700</h4>
+              </div>
+            </div>
+          </div>
+          <div class="result2">
+            <div class="resultContainer">
+              <div class="picHeading">
+                <div class="image"></div>
+                <div class="textContent">
+                  <h1>The Bake Shop</h1>
+                  <h4>FORT</h4>
+                  <h6>Shop 1, Plot D, Samruddhi Complex, Chincholi ...</h6>
+                </div>
+              </div>
+              <hr>
+              <div class="cuisineType">
+                <h3>Cuisines:</h3>
+                <h4>Bakery</h4>
+              </div>
+              <div class="price">
+                <h3>cost for two:</h3>
+                <h4>₹700</h4>
+              </div>
+          </div>
+        </div>
+        <div class="pages">
+          <div class="item1"></div>
+          <div class="item1"><h4>1</h4></div>
+          <div class="item1"><h4>2</h4></div>
+          <div class="item1"><h4>3</h4></div>
+          <div class="item1"><h4>4</h4></div>
+          <div class="item1"><h4>5</h4></div>
+          <div class="item1"></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div></div>
+    </footer>
+  </body>
+</html>
