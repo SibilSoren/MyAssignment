@@ -4,3 +4,5 @@ This assignment was to create a static web page using HTML and CSS, of a Food Or
 
 Live link of the assignment </br>
 [Assignment 2 live link](https://sibilsoren.github.io/MyAssignment/)
+
+![Assignment Screenshot](./images/assignment1.JPG)
